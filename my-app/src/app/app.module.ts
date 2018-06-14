@@ -9,6 +9,8 @@ import { SearchBoxDirective } from './search-box.directive';
 import { SalesDataService } from './sales-data.service';
 import { SalesData2Service } from './sales-data2.service';
 import { InitCapsPipe } from './shared/init-caps.pipe';
+import { LoginModule } from './login/login.module';
+
 
 @NgModule({
   declarations: [
@@ -16,7 +18,8 @@ import { InitCapsPipe } from './shared/init-caps.pipe';
     CustomerComponent,
     OrdersComponent,
     SearchBoxDirective,
-    InitCapsPipe
+    InitCapsPipe,
+    LoginModule
   ],
   imports: [
     BrowserModule,
