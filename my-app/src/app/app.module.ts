@@ -10,6 +10,8 @@ import { SalesDataService } from './sales-data.service';
 import { SalesData2Service } from './sales-data2.service';
 import { InitCapsPipe } from './shared/init-caps.pipe';
 import { LoginModule } from './login/login.module';
+import { DashboardComponent } from './dashboard/dashboard.component';
+import { AdminModule } from './admin/admin.module';
 
 
 @NgModule({
@@ -19,7 +21,9 @@ import { LoginModule } from './login/login.module';
     OrdersComponent,
     SearchBoxDirective,
     InitCapsPipe,
-    LoginModule
+    LoginModule,
+    DashboardComponent,
+    AdminModule
   ],
   imports: [
     BrowserModule,
